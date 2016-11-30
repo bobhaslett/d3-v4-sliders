@@ -27,7 +27,7 @@ function sliderFactory(d) {
     //console.log("drawSlider")
     let rounded=value
     if(called) {
-        redraw();
+        reposition();
     }
     else {init()}
     function init() {
@@ -112,7 +112,7 @@ function sliderFactory(d) {
       }
     }
     ///End of init()
-    function redraw() {
+    function reposition() {
       sliderScale = getScale(orient);
       svg.attr("width", width)
       if(orient=="vertical") {
