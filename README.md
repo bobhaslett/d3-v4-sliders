@@ -1,3 +1,7 @@
-# Project Title
+# sliderFactory
 
-One Paragraph of project description goes here
+Pre-styled SVG sliders created using Mike Bostock's d3 library that can be called in a HTML div.
+
+## Getting Started
+
+
