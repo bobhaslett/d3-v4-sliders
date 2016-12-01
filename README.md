@@ -7,6 +7,9 @@ Pre-styled SVG sliders created using version 4 of Mike Bostock's d3 library. Eac
 You will need the [d3 library](https://d3js.org/) installed
 
 ## Installing
+### Local installisation
+
+Download the repository. Move the sliders.js and styles.css into your project folder.
 
 at the x=margin.left, y=zero plus the top margin. The default SVG height is set to 55px and margin.top is set at 20px, enough room for the handle and a scale underneath. When adding labels (Slider 4) you should adjust the height and margin.top.
 
