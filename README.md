@@ -4,7 +4,6 @@ Pre-styled SVG sliders created using version 4 of Mike Bostock's d3 library. Eac
 
 
 ### Prerequisites
-
 You will need the [d3 library](https://d3js.org/) installed
 
 ## Installing
