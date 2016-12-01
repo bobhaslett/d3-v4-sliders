@@ -28,7 +28,7 @@ Vertical sliders are appended at x=width/2+left.margin. This makes them easier t
 
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/vertical.png)
 
-## Working examples
+## Examples
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
 ## License
