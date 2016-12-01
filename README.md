@@ -27,7 +27,7 @@ Vertical sliders are appended at x=width/2+left.margin. This makes them easier t
 The handle moves by increments of one interger as a default but again this can be set easily with the .step() parameter (Slider 3).
 
 ## Working examples
-To see working examples and the sample code please [view here](
+Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
 ## License
 
