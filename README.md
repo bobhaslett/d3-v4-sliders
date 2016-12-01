@@ -65,5 +65,11 @@ let slideholder5 = d3.select('#holder5').call(slider5.width(80).margin({top: 40,
 ## Authors
 * **Bob Haslett** - *Initial work*
 
+## Acknowledgments
+
+* Mike Bostock's [Dreag slider](https://bl.ocks.org/mbostock/6452972)
+* Inspiration
+* etc
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
