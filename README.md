@@ -68,7 +68,7 @@ let slideholder5 = d3.select('#holder5').call(slider5.width(80).margin({top: 40,
 ## Acknowledgments
 
 * Mike Bostock's [Dreag slider](https://bl.ocks.org/mbostock/6452972)
-* Inspiration
+* Inspiration- [slider.js](https://github.com/MasterMaps/d3-slider)
 * etc
 
 ## License
