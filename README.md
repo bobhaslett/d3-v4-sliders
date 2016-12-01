@@ -53,6 +53,12 @@ let slideholder4 = d3.select('#holder4').call(slider4.height(70).margin({top: 35
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider4.png)
 
+### Slider5: Vertical slider with label and scale
+```
+let slideholder5 = d3.select('#holder5').call(slider5.width(80).margin({top: 40, right: 15, bottom: 35, left: 15 }).height(300).scale(true).ticks(20).label(true).value(80).range([0,80]).orient("vertical").dragHandler(function(d) {test(d);}));
+```
+![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider5.png)
+
 
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
