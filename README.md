@@ -24,11 +24,9 @@ Horizontal slders are appended within an SVG element. All the gemoetry is held w
 
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider.png)
 
-Vertical sliders are appended at x=width/2+left.margin. This makes them easier to control when they are made responsive. They also need a larger top.margin when a label is added (slider4). Tis example is with a div that is 400px wide.
+Vertical sliders are appended at x=width/2+left.margin. This makes them easier to control when they are made responsive. They also need a larger top.margin when a label is added (slider4). This example is with a div that is 400px wide, margin,top(40) and margin.bottom(20)
 
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/vertical.png)
-
-The handle moves by increments of one interger as a default but again this can be set easily with the .step() parameter (Slider 3).
 
 ## Working examples
 Wworking examples [here](
