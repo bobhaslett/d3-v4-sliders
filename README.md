@@ -63,8 +63,7 @@ let slideholder5 = d3.select('#holder5').call(slider5.width(80).margin({top: 40,
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider5.png)
 
 ## Authors
-
 * **Bob Haslett** - *Initial work*
-## License
 
+## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
