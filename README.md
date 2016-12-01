@@ -9,7 +9,10 @@ You will need the [d3 library](https://d3js.org/) installed
 ## Installing
 ### Manually install
 
-Download the repository. Move the sliders.js and styles.css into your project folder. Add the following code to the top of your index.html
+Download the repository. Move the sliders.js and styles.css into your project folder. To add the styles to your project insert the following code into your index.html header
+```
+<link rel="stylesheet" type="text/css" href="./styles.css">
+```
 
 ### NPM install
 This is not yet available
