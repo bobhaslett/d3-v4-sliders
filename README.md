@@ -20,7 +20,7 @@ This is not yet available
 
 ## Positioning
 
-Horizontal slders are appended within an SVG element. All the gemoetry is held within  a 'g' element that is translated to x=zero+margin.left, y=zero plus the top margin. The default SVG height is set to 55px and margin.top is set at 20px, enough room for the handle and a scale underneath. When adding labels (Slider 4) you should adjust the height and margin.top.
+Horizontal slders are appended within an SVG element. All the gemoetry is held within  a 'g' element that is translated to x=zero+margin.left, y=zero plus the top margin. The default SVG height is set to 55px and margin.top is set at 20px, enough room for the handle and a scale underneath. When adding labels (Slider 4) you should adjust the height and margin.top. There is also a default margin.right parameter of 20px.
 
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider.png)
 
