@@ -35,14 +35,19 @@ const slider1 = sliderFactory();
 let slideholder1 = d3.select('#holder1').call(slider1);
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider1.png)
-### Slider2: Adds a scale and sets .tick(30) so there are only two ticks
 
+### Slider2: Adds a scale and sets .tick(30) so there are only two ticks
 ```
 const slider2 = sliderFactory();
 let slideholder2 = d3.select('#holder2').call(slider2.ticks(30).scale(true).range([0,30]) );
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider2.png)
 
+### Slider3: Using the .step() parameter to increment the handle moves by to 0.1
+```
+let slideholder3 = d3.select('#holder3').call(slider3.ticks(1).scale(true).range([0,4]).step(0.1));
+```
+![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider3.png)
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
 ## License
