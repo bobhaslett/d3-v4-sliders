@@ -30,7 +30,7 @@ Vertical sliders are appended at x=width/2+left.margin. This makes them easier t
 
 ## Examples
 
-Wworking examples [here](https://bobhaslett.github.io/d3-v4-sliders/index.html)
+Wworking examples [here](https://bobhaslett.github.io/d3-v4-sliders/index.html). Includes how to make function calls and examples of working responsive sliders
 
 ### Slider1: default slider
 ```
