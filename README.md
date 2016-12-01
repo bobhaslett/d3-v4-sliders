@@ -35,6 +35,12 @@ const slider1 = sliderFactory();
 let slideholder1 = d3.select('#holder1').call(slider1);
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider1.png)
+### Slider1: default slider
+```
+const slider1 = sliderFactory();
+let slideholder1 = d3.select('#holder1').call(slider1);
+```
+![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider2.png)
 
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
