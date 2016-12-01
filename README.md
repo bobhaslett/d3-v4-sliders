@@ -69,7 +69,6 @@ let slideholder5 = d3.select('#holder5').call(slider5.width(80).margin({top: 40,
 
 * Mike Bostock's [Drag slider](https://bl.ocks.org/mbostock/6452972)
 * Inspiration- [D3 js slider](https://github.com/MasterMaps/d3-slider)
-* etc
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
