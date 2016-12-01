@@ -35,10 +35,11 @@ const slider1 = sliderFactory();
 let slideholder1 = d3.select('#holder1').call(slider1);
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider1.png)
-### Slider1: default slider
+### Slider2: Adds a scale and sets .tick(30) so there are only two ticks
+
 ```
-const slider1 = sliderFactory();
-let slideholder1 = d3.select('#holder1').call(slider1);
+const slider2 = sliderFactory();
+let slideholder2 = d3.select('#holder2').call(slider2.ticks(30).scale(true).range([0,30]) );
 ```
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider2.png)
 
