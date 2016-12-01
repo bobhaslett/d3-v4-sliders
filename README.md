@@ -29,6 +29,12 @@ Vertical sliders are appended at x=width/2+left.margin. This makes them easier t
 ![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/vertical.png)
 
 ## Examples
+### Slider1: default slider
+```
+const slider1 = sliderFactory();
+let slideholder1 = d3.select('#holder1').call(slider1);
+```
+
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
 ## License
