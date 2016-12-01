@@ -47,7 +47,13 @@ let slideholder2 = d3.select('#holder2').call(slider2.ticks(30).scale(true).rang
 ```
 let slideholder3 = d3.select('#holder3').call(slider3.ticks(1).scale(true).range([0,4]).step(0.1));
 ```
-![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider3.png)
+### Slider4: Add labels and preset the value to 3
+```
+let slideholder4 = d3.select('#holder4').call(slider4.height(70).margin({top: 35, right: 15, bottom: 15, left: 15 }).value(30).ticks(10).scale(true).range([0,80]).step(1).label(true));
+```
+![alt tag](https://bobhaslett.github.io/d3-v4-sliders/images/slider4.png)
+
+
 Wworking examples [here](
 https://bobhaslett.github.io/d3-v4-sliders/index.html)
 ## License
