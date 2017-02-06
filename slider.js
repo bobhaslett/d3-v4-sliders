@@ -1,4 +1,3 @@
-
 function functor(v) {
   return typeof v === "function" ? v : function() {
     return v;
@@ -44,7 +43,7 @@ function sliderFactory(d) {
             .on("drag", function() {
               dragSlider(this)
               dragHandler(drawSlider); 
-              value=getMousePos(orient);
+              value=rounded;
             }))
         .attr("transform", sliderTranslation(orient));
 
@@ -96,6 +95,7 @@ function sliderFactory(d) {
         let slider=d3.select(svg)
         let d = getMousePos(orient);
         rounded = d + step/2 - (d+step/2) % step;
+        console.log("rounded",rounded)
         let handle=slider.selectAll(".handle")
           .attr("transform", transHandle(orient))
         
@@ -105,10 +105,9 @@ function sliderFactory(d) {
         }
         let overlay=slider.selectAll(".track-overlay")
         if(orient=="vertical"){
-          overlay.attr("y2", sliderScale(value))
+          overlay.attr("y2", sliderScale(rounded))
         }
-        else {overlay.attr("x2", sliderScale(value))}
-
+        else {overlay.attr("x2", sliderScale(rounded))}
       }
     }
     ///End of init()

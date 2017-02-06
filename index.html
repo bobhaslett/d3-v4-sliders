@@ -164,6 +164,7 @@ let slideholder8 = d3.select('#holder8').call(slider8
 
 function getValue(d) {
 	var parseNum = d3.format(".0f");
+	console.log (d.value)
 	d3.select("#slideValue").text("Slider value "+parseNum(d.value()))
 }
 
