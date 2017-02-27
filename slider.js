@@ -24,6 +24,7 @@ function sliderFactory(d) {
 
   function drawSlider(p) {
     //console.log("drawSlider")
+    console.log("drawSlider",value)
     let rounded=value
     if(called) {
         reposition();
@@ -235,8 +236,10 @@ function sliderFactory(d) {
   };
 
   drawSlider.value = function (n) {
+    console.log("n",n)
     if (!n) return value;
-    value = n
+    value = n;
+    console.log("value",value)
     return drawSlider;
   };
 
