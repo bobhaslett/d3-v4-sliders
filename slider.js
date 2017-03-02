@@ -236,10 +236,8 @@ function sliderFactory(d) {
   };
 
   drawSlider.value = function (n) {
-    console.log("n",n)
     if (n==undefined) return value;
     value = n;
-    console.log("value",value)
     return drawSlider;
   };
 
